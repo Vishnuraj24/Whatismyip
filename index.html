@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your IP Addresses</h1>
+        <div id="ipAddresses">
+            <p><strong>IPv4 Address:</strong> <span id="ipv4" onclick="copyToClipboard(this.textContent)">CHECKING.....</span></p>
+            <p><strong>IPv6 Address:</strong> <span id="ipv6" onclick="copyToClipboard(this.textContent)">CHECKING.....</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
